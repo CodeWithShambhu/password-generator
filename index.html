@@ -6,42 +6,59 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Password Generator</title>
   </head>
-  <body class="bg-[#1b1b3a] content-center justify-items-center h-screen">
+  <body class="bg-[#1b1b3a] flex items-center justify-center min-h-screen p-4">
     <div
-      class="text-white border-solid outline-white outline rounded-[10px] p-10 w-[30%]"
+      class="text-white border-solid outline-white outline rounded-[10px] p-6 w-full max-w-md"
     >
-      <h1 class="text-[30px] font-bold text-center">Password Generator</h1>
+      <h1 class="text-2xl font-bold text-center mb-6">Password Generator</h1>
+      
       <input
-        class="bg-white rounded-[5px] block w-[100%] my-[20px] placeholder-black pl-[10px] py-[2px] text-[#1b1b3a] font-semibold outline-0"
+        class="bg-white rounded-[5px] block w-full mb-6 placeholder-black pl-3 py-2 text-[#1b1b3a] font-semibold outline-none"
         type="text"
         id="password"
-        placeholder="Click on Generator Button"
+        placeholder="Click on Generate Button"
+        readonly
       />
-      <div class="gap-[10px] flex justify-center">
-        <button class="bg-[#9881ff] py-[2px] px-[20px] rounded-[5px] cursor-pointer" id="generatePassword">Generate</button>
-        <button class="bg-[#9881ff] py-[2px] px-[20px] rounded-[5px] cursor-pointer" id="copyPassword">Copy to Clipboard</button>
+      
+      <div class="flex flex-col sm:flex-row gap-4 mb-6">
+        <button class="bg-[#9881ff] py-2 px-4 rounded-[5px] cursor-pointer w-full" id="generatePassword">
+          Generate
+        </button>
+        <button class="bg-[#9881ff] py-2 px-4 rounded-[5px] cursor-pointer w-full" id="copyPassword">
+          Copy to Clipboard
+        </button>
       </div>
-      <div class="flex justify-between mt-[30px] items-center">
+      
+      <div class="flex justify-between items-center mb-4">
         <p>Password Length</p>
-        <input class="bg-white rounded-[5px] w-[20%] text-center placeholder-black py-[2px] text-[#1b1b3a] font-semibold outline-0" type="number" id="passwordLength" />
+        <input
+          class="bg-white rounded-[5px] w-20 text-center placeholder-black py-1 text-[#1b1b3a] font-semibold outline-none"
+          type="number"
+          id="passwordLength"
+        />
       </div>
-      <div class="flex justify-between mt-[3px]">
+      
+      <div class="flex justify-between items-center mb-2">
         <p>Include Uppercase Letters</p>
         <input class="cursor-pointer" type="checkbox" id="upperCasePassword" />
       </div>
-      <div class="flex justify-between mt-[3px]">
-        <p>Password Lowercase Letters</p>
+      
+      <div class="flex justify-between items-center mb-2">
+        <p>Include Lowercase Letters</p>
         <input class="cursor-pointer" type="checkbox" id="lowercasePassword" />
       </div>
-      <div class="flex justify-between mt-[3px]">
+      
+      <div class="flex justify-between items-center mb-2">
         <p>Include Numbers</p>
         <input class="cursor-pointer" type="checkbox" id="numberPassword" />
       </div>
-      <div class="flex justify-between mt-[3px]">
+      
+      <div class="flex justify-between items-center">
         <p>Include Symbols</p>
         <input class="cursor-pointer" type="checkbox" id="symbolPassword" />
       </div>
     </div>
+    
     <script src="script.js"></script>
   </body>
 </html>
