@@ -1,7 +1,7 @@
 
 # 🔐 Password Generator
 
-A simple and customizable **Password Generator** built using **HTML**, **CSS**, and **JavaScript**.  
+A simple and customizable **Password Generator** built using **HTML**, **Tailwind CSS**, and **JavaScript**.  
 Users can select options like **uppercase letters**, **lowercase letters**, **numbers**, and **symbols** to generate strong, random passwords of their desired length.
 
 ---
@@ -29,9 +29,7 @@ Users can select options like **uppercase letters**, **lowercase letters**, **nu
 
 | Generate Password | Copy to Clipboard |
 |:-----------------:|:-----------------:|
-| ![Generate](./assets/images/password-generator.png) | ![Copy](https://via.placeholder.com/300x200?text=Copied+Password) |
-
-_(Replace these placeholder images with your own screenshots later.)_
+| ![Generate](./assets/images/password-generator.png) | ![Copy](./assets/images/copy-to-clipboard.png) |
 
 ---
 
@@ -61,7 +59,7 @@ _(Replace these placeholder images with your own screenshots later.)_
 
 ## ✨ Live Demo
 
-👉 [Live Preview Here](#) _(Add your GitHub Pages link or Netlify link here when deployed)_
+👉 [Live Preview Here](https://codewithshambhu.github.io/password-generator/)
 
 ---
 
@@ -69,7 +67,7 @@ _(Replace these placeholder images with your own screenshots later.)_
 
 1. Clone this repository:
    \`\`\`bash
-   git clone https://github.com/your-username/password-generator.git
+   git clone https://github.com/CodeWithShambhu/password-generator.git
    \`\`\`
 2. Navigate to the project directory:
    \`\`\`bash
@@ -86,16 +84,10 @@ Feel free to **fork** the repo and create a **pull request**.
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 💬 Connect with Me
 
-- GitHub: [your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
+- GitHub: [CodeWithShambhu](https://github.com/CodeWithShambhu)
+- LinkedIn: [Shambhu-Sk](https://www.linkedin.com/in/shambhu-sk/)
 
 ---
 
