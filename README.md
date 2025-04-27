@@ -48,12 +48,12 @@ Users can select options like **uppercase letters**, **lowercase letters**, **nu
 
 ## 📂 Project Structure
 
-\`\`\`bash
+```bash
 📁 Password-Generator/
  ┣ 📄 index.html
  ┣ 📄 style.css
  ┗ 📄 script.js
-\`\`\`
+```
 
 ---
 
@@ -66,13 +66,13 @@ Users can select options like **uppercase letters**, **lowercase letters**, **nu
 ## 📋 How to Run Locally
 
 1. Clone this repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/CodeWithShambhu/password-generator.git
-   \`\`\`
+   ```
 2. Navigate to the project directory:
-   \`\`\`bash
+   ```bash
    cd password-generator
-   \`\`\`
+   ```
 3. Open `index.html` in your browser.
 
 ---
