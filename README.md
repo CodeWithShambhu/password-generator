@@ -50,9 +50,14 @@ Users can select options like **uppercase letters**, **lowercase letters**, **nu
 
 ```bash
 📁 Password-Generator/
- ┣ 📄 index.html
- ┣ 📄 style.css
- ┗ 📄 script.js
+├── 📄 index.html
+├── 📄 style.css
+├── 📄 script.js
+├── 📁 assets/
+│   └── 📁 images/
+│       ├── 📸 quick-screen.png
+│       └── 📸 final-score-screen.png
+└── 📄 README.md
 ```
 
 ---
@@ -81,6 +86,12 @@ Users can select options like **uppercase letters**, **lowercase letters**, **nu
 
 Contributions, issues, and feature requests are welcome!  
 Feel free to **fork** the repo and create a **pull request**.
+
+---
+
+## 📜 License
+
+This project is open source and free to use. Feel free to modify and improve it.
 
 ---
 
